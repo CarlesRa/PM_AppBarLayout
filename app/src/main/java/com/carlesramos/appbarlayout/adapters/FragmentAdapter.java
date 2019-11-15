@@ -28,7 +28,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         Persona persona = new Persona("53215474Y","Carlos","Ramos Moll","15/08/1982"
         ,"Muñoz 4 2ºD","Gravity apps","H234234234","www.gravityapps.com"
-        ,"jcramos8282@gmail.com","EresGuapo");
+        ,"jcramos8282@gmail.com","si");
         switch (position){
             case 0:
                 FragmentPersonal fragmentPersonal = new FragmentPersonal(persona);

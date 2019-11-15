@@ -75,7 +75,6 @@ public class FragmentAcceso extends Fragment {
                         ,etNewPass.getText().toString(),etPassRepeat.getText().toString()) == 0){
                     ocultarElementos();
                     resetTexts();
-                    ocultarTeclado(getActivity());
                     Toast toast = Toast.makeText(getActivity(),"Contraseña cambiada!!",Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.CENTER,0,0);
                     toast.show();
@@ -127,13 +126,5 @@ public class FragmentAcceso extends Fragment {
 
     public void resetNewPassText(){
         etPassRepeat.setText("");
-    }
-
-    public void ocultarTeclado(Activity activity){
-        InputMethodManager inputMethodManager =
-                (InputMethodManager) activity.getSystemService(
-                        Activity.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(
-                activity.getCurrentFocus().getWindowToken(), 0);
     }
 }
