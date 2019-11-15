@@ -28,7 +28,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/tvCif"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvRazonSocial" />
 
@@ -40,7 +40,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="20dp"
         android:text="Text View"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toEndOf="@+id/tvLblCif"
         app:layout_constraintTop_toBottomOf="@+id/tvRazonSocial" />
 
@@ -52,7 +52,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/tvDireccio"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvLblCif" />
 
@@ -64,7 +64,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/tvWebSite"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvLblDireccion" />
 
@@ -76,7 +76,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toEndOf="@+id/tvLblPaginaWeb"
         app:layout_constraintTop_toBottomOf="@+id/tvLblDireccion" />
 
@@ -88,7 +88,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/tvLabMail"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvLblPaginaWeb" />
 
@@ -100,7 +100,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toEndOf="@+id/tvLblEmail"
         app:layout_constraintTop_toBottomOf="@+id/tvWeb" />
 
@@ -112,7 +112,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        android:textSize="20dp"
+        android:textSize="16dp"
         app:layout_constraintStart_toEndOf="@+id/tvLblDireccion"
         app:layout_constraintTop_toBottomOf="@+id/tvCif" />
 

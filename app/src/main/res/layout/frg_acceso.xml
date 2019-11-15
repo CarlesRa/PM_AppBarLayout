@@ -6,28 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvLblUserName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/tvlblUser" />
-
-    <TextView
-        android:id="@+id/tvUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/tvLblUserName"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btChangePass"
         android:layout_width="wrap_content"
@@ -46,6 +24,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:text="@string/lblYourPass"
+        android:textSize="16dp"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btChangePass" />
@@ -75,6 +54,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/lblnewPass"
+        android:textSize="16dp"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etYourPass" />
@@ -103,6 +83,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:text="@string/lblRepitPass"
+        android:textSize="16dp"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNewPass" />
@@ -133,4 +114,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etRepitPass" />
+
+    <TextView
+        android:id="@+id/tvLblUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvlblUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/tvLblUserName"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

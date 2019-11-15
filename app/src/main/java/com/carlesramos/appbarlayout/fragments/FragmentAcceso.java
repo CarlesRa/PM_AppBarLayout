@@ -22,9 +22,8 @@ import com.carlesramos.appbarlayout.modelo.Persona;
 import static android.content.Context.INPUT_METHOD_SERVICE;
 
 public class FragmentAcceso extends Fragment {
-
+    private TextView tvLblUserName;
     private TextView tvUserName;
-    private TextView tvNombre;
     private TextView tvLblYourPass;
     private TextView tvLblNewPass;
     private TextView tvLblRepeatPass;
@@ -51,15 +50,15 @@ public class FragmentAcceso extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        tvUserName = getActivity().findViewById(R.id.tvLblUserName);
-        tvNombre = getActivity().findViewById(R.id.tvUser);
+        tvLblUserName = getActivity().findViewById(R.id.tvLblUserName);
+        tvUserName = getActivity().findViewById(R.id.tvUser);
         tvLblYourPass = getActivity().findViewById(R.id.tvLblYourPass);
         tvLblNewPass = getActivity().findViewById(R.id.tvLblNewPass);
         tvLblRepeatPass = getActivity().findViewById(R.id.tvLblRepeatPass);
         etActualPass = getActivity().findViewById(R.id.etYourPass);
         etNewPass = getActivity().findViewById(R.id.etNewPass);
         etPassRepeat = getActivity().findViewById(R.id.etRepitPass);
-        tvNombre.setText(p.getNom());
+        tvUserName.setText(p.getNom());
         btChangePass = getActivity().findViewById(R.id.btChangePass);
         btChangePass.setOnClickListener(new View.OnClickListener() {
             @Override
