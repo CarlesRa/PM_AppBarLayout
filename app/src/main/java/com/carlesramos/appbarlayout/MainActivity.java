@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = findViewById(R.id.tbLayout);
 
-        adapter = new FragmentAdapter(getSupportFragmentManager());
+        adapter = new FragmentAdapter(getSupportFragmentManager(),this);
 
         pager = findViewById(R.id.vpMain);
         pager.setAdapter(adapter);

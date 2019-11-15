@@ -1,6 +1,6 @@
 package com.carlesramos.appbarlayout.modelo;
 
-public class Model {
+public class Persona {
     private String nif;
     private String nom;
     private String cognom;
@@ -12,8 +12,8 @@ public class Model {
     private String email;
     private String contrasenya;
 
-    public Model(String nif, String nom, String cognom, String fecha, String direccio,
-                 String raoSocial, String cif, String webSite, String email, String contrasenya) {
+    public Persona(String nif, String nom, String cognom, String fecha, String direccio,
+                   String raoSocial, String cif, String webSite, String email, String contrasenya) {
         this.nif = nif;
         this.nom = nom;
         this.cognom = cognom;
@@ -62,9 +62,16 @@ public class Model {
         return email;
     }
 
-    public void setContrasenya(String contrasenya) {
+    public int setContrasenya(String contrasenya, String nuevaContra, String repeatContra) {
         if (contrasenya.equals(this.contrasenya)){
-            this.contrasenya = contrasenya;
+            if (nuevaContra.equals(repeatContra)){
+                this.contrasenya = nuevaContra;
+                return 0;
+            }
+            else{
+                return 1;
+            }
         }
+        return -1;
     }
 }

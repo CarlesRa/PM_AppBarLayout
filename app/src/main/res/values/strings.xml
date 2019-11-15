@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">AppBarLayout</string>
+    <string name="app_name">User Profile</string>
+    <string name="tvNom">Name:</string>
+    <string name="tvCognom">Surname:</string>
+    <string name="tvDataNac">Birth Date:</string>
+    <string name="tvDireccio">Adress:</string>
+    <string name="tvLabMail">Email:</string>
+    <string name="tvWebSite">Web Site:</string>
+    <string name="tvCif">Cif:</string>
+    <string name="tvlblUser">User Name:</string>
+    <string name="lblChangePass">Change Password</string>
+    <string name="lblYourPass">Your Password:</string>
+    <string name="lblnewPass">New Password:</string>
+    <string name="lblRepitPass">Repeat New Password:</string>
+    <string name="lblSavePass">Save Changes</string>
 </resources>
