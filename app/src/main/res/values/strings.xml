@@ -13,4 +13,10 @@
     <string name="lblnewPass">New Password:</string>
     <string name="lblRepitPass">Repeat New Password:</string>
     <string name="lblSavePass">Save Changes</string>
+    <string name="frg01">PERSONAL</string>
+    <string name="frg02">PROFESIONAL</string>
+    <string name="frg03">ACCESs</string>
+    <string name="toastOk" >Password changed!!</string>
+    <string name="toastNew">The new passwords do not match</string>
+    <string name="toastRepeat">Wrong current password</string>
 </resources>

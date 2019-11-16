@@ -74,7 +74,7 @@ public class FragmentAcceso extends Fragment {
                         ,etNewPass.getText().toString(),etPassRepeat.getText().toString()) == 0){
                     ocultarElementos();
                     resetTexts();
-                    Toast toast = Toast.makeText(getActivity(),"Contraseña cambiada!!",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getActivity(),getActivity().getString(R.string.toastOk),Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.CENTER,0,0);
                     toast.show();
                 }
@@ -82,14 +82,14 @@ public class FragmentAcceso extends Fragment {
                         ,etNewPass.getText().toString(),etPassRepeat.getText().toString()) == 1){
                     etPassRepeat.requestFocus();
                     resetNewPassText();
-                    Toast toast = Toast.makeText(getActivity(),"Error la nueva contraseña no coicide!!",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getActivity(),getActivity().getString(R.string.toastNew),Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.CENTER,0,0);
                     toast.show();
                 }
                 else{
                     resetTexts();
                     etActualPass.requestFocus();
-                    Toast toast = Toast.makeText(getActivity(),"Error contraseña actual erronea!!",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getActivity(),getActivity().getString(R.string.toastRepeat),Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.CENTER,0,0);
                     toast.show();
                 }

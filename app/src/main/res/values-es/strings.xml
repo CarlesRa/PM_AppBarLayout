@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perfil Usuario</string>
+    <string name="tvNom">Nombre:</string>
+    <string name="tvCognom">Apellido:</string>
+    <string name="tvDataNac">Fecha Nacimento:</string>
+    <string name="tvDireccio">Dirección:</string>
+    <string name="tvLabMail">Correo:</string>
+    <string name="tvWebSite">Página web:</string>
+    <string name="tvCif">Cif:</string>
+    <string name="tvlblUser">Nombre usuario:</string>
+    <string name="lblChangePass">Cambiar Contraseña</string>
+    <string name="lblYourPass">Contraseña actual:</string>
+    <string name="lblnewPass">Nueva contraseña:</string>
+    <string name="lblRepitPass">Repetir nueva contraseña:</string>
+    <string name="lblSavePass">Guardar Cambios</string>
+    <string name="frg01">PERSONAL</string>
+    <string name="frg02">PROFESIONAL</string>
+    <string name="frg03">ACCESO</string>
+    <string name="toastOk" >Contraseña cambiada!!</string>
+    <string name="toastNew">Las nuevas contraseñas no coinciden</string>
+    <string name="toastRepeat">Contraseña actual erronea</string>
+</resources>
